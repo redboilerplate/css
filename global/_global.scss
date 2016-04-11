@@ -1,7 +1,7 @@
 .container{}
 .gutter-bottom{
 	margin-bottom:$bottom;
-	@media (max-min:@screen-xs-max){
+	@media (max-min:$screen-xs-max){
 		margin-bottom: $bottom/2;
 	}
 }
